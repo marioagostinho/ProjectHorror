@@ -1,0 +1,74 @@
+# Compiled binary files
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Intermediate build files
+Intermediate/
+
+# Compiled build files
+Binaries/
+
+# Logs and diagnostic files
+Saved/Logs/
+DerivedDataCache/
+
+# Cached data files
+*.sqlite3
+*.sdf
+
+# Generated project files
+*.sln
+*.suo
+*.csproj
+*.xcodeproj
+*.xcworkspace
+
+# Editor autosave files
+*.autosave
+
+# Visual Studio Code specific files
+.vscode/
+
+# Mac specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CodeLite specific files
+.codelite/
+*.workspace
+*.toplevel
+
+# Android specific files
+.build/
+
+# iOS specific files
+build/
+
+# Unreal Engine generated files
+DerivedDataCache/
+Saved/Autosaves/
+Intermediate/Build/
+
+# Ignore specific Unreal Engine directories (optional)
+# Replace `<FolderName>` with the names of any additional directories you want to ignore
+/Content/<FolderName>/
+/Saved/<FolderName>/
+/Config/<FolderName>/
+/Plugins/<FolderName>/
+
+# Ignore specific Unreal Engine files (optional)
+# Replace `<FileName>` with the names of any additional files you want to ignore
+/*.ini
+/*.sln
+/*.uproject
+
+# Ignore user-specific configurations (optional)
+/*.suo
+/*.user
+
+# Ignore user-specific IDE files (optional)
+/.vs/
+/.idea/
